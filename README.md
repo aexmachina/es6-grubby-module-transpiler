@@ -1,5 +1,8 @@
 # ES6 Module Transpiler [![Build Status](https://travis-ci.org/square/es6-module-transpiler.png)](https://travis-ci.org/square/es6-module-transpiler)
 
+This fork provides the ability to disable `'use strict';` in the compiled modules. 
+There's Broccoli plugin for this [here](https://github.com/aexmachina/broccoli-es6-concatenator).
+
 ES6 Module Transpiler is an experimental compiler that allows you to write your
 JavaScript using a subset of the current ES6 module syntax, and compile it into
 AMD or CommonJS modules.
